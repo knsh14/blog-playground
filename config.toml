@@ -1,4 +1,4 @@
-baseurl = "http://knsh14.github.io/"
+baseurl = "https://knsh14.github.io/"
 languageCode = "ja-ja"
 title = "Posts of knsh14"
 theme = "purehugo"
