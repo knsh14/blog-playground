@@ -1,0 +1,11 @@
+baseurl = "http://knsh14.github.io/"
+languageCode = "ja-ja"
+title = "Posts of knsh14"
+theme = "purehugo"
+Paginate = 10
+
+[params]
+  twitterName = "knsh14"
+  githubName = "knsh14"
+  description = "blog for kenshi kamata"
+  hideShareOptions = true
