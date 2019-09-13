@@ -32,7 +32,7 @@ jobs:
         export PATH=$PATH:`go env GOPATH`/bin
         git submodule init
         git submodule update
-        cd knshsample && hugo
+        hugo
 
     - name: Push
       run: |
