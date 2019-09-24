@@ -6,9 +6,10 @@ draft: false
 
 
 [技術書典7]( https://techbookfest.org/event/tbf07 )に参加してきました。
-自分は今回は"[かまてん]( https://techbookfest.org/event/tbf07/circle/5741270278340608 )"というサークルでGoのテストについての本を頒布していました。
+私は今回"[かまてん]( https://techbookfest.org/event/tbf07/circle/5741270278340608 )"というサークルでGoのテストについての本を頒布しました。
 
 他にも
+
 * [golang.tokyo]( https://techbookfest.org/event/tbf07/circle/5174941137764352 )
 * [メルカリ技術書典部]( https://techbookfest.org/event/tbf07/circle/5642184086781952 )
 
