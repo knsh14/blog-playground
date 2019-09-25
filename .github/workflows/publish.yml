@@ -38,6 +38,10 @@ jobs:
       run: |
         export MSG=`git log --format=%B -n 1 HEAD`
         cd public
+        if [ ! `git diff --name-only` ]; then
+            echo "no different with current published page."
+            exit 0
+        fi
         git config --local user.name "kenshi kamata"
         git config --local user.email "kenshi.kamata@gmail.com"
         git add .
