@@ -24,4 +24,4 @@ jobs:
       env:
         REVIEWDOG_GITHUB_API_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
-          $(npm bin)/textlint -f checkstyle `git diff --name-only ${{ github.base_ref }} ${{ github.head_ref }} | grep ".md$"` | ./bin/reviewdog -f=checkstyle -name=textlint -reporter=github-pr-review
+          $(npm bin)/textlint -f checkstyle content/post/*.md | ./bin/reviewdog -f=checkstyle -name=textlint -reporter=github-pr-review
