@@ -1,7 +1,7 @@
 ---
-title: "Textlint Reviewdog"
+title: "reviewdogとGitHub Actionsでtextlintチェックをする"
 date: 2019-09-27T12:30:29+09:00
-draft: true
+draft: false
 ---
 
 この記事では[reviewdog]( https://github.com/reviewdog/reviewdog )と[textlint]( https://github.com/textlint/textlint )を組み合わせてGitHub Actionsで利用する方法を説明します。
