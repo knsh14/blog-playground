@@ -9,3 +9,4 @@ Paginate = 10
   githubName = "knsh14"
   description = "blog for kenshi kamata"
   hideShareOptions = true
+  google_analytics = "UA-149357345-1"
