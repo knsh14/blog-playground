@@ -40,6 +40,6 @@ google_analytics = "UA-149357345-1"
     weight = 10
 
   [[menu.main]]
-    name = "Translations"
-    url = "translations/"
+    name = "Works"
+    url = "works/"
     weight = 20
