@@ -1,12 +1,45 @@
 baseurl = "https://knsh14.github.io/"
 languageCode = "ja-ja"
-title = "Posts of knsh14"
-theme = "purehugo"
+title = "knsh14"
+theme = "hermit"
 Paginate = 10
+rssLimit = 10
+
+google_analytics = "UA-149357345-1"
+
+[author]
+  name = "Kenshi Kamata"
 
 [params]
-  twitterName = "knsh14"
-  githubName = "knsh14"
-  description = "blog for kenshi kamata"
-  hideShareOptions = true
-  google_analytics = "UA-149357345-1"
+#   twitterName = "knsh14"
+#   githubName = "knsh14"
+#   description = "blog for kenshi kamata"
+#   hideShareOptions = true
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+
+  themeColor = "#494f5c"
+
+  homeSubtitle = "portfolio of knsh14"
+
+  [[params.social]]
+    name = "twitter"
+    url = "https://twitter.com/knsh14"
+
+  [[params.social]]
+    name = "github"
+    url = "https://github.com/knsh14"
+
+[menu]
+
+  [[menu.main]]
+    name = "Posts"
+    url = "posts/"
+    weight = 10
+
+  [[menu.main]]
+    name = "Translations"
+    url = "translations/"
+    weight = 20
