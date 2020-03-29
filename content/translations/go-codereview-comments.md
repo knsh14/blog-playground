@@ -27,7 +27,7 @@ type Request struct { ...
 func Encode(w io.Writer, req *Request) { ...
 ```
 
-<!-- また、コメントが正しい文章の終わりの印であるピリオドで終わらない場合に注意してください。
+また、コメントが正しい文章の終わりの印であるピリオドで終わらない場合に注意してください。
 [github.com/mailru/easyjson](https://github.com/mailru/easyjson) や [github.com/golang/lint]( https://github.com/golang/lint ) など多くのツールで型やメソッドの情報をマークするためにコメントを使っています。
 
 # Declaring Empty Slices
