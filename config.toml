@@ -4,6 +4,9 @@ title = "knsh14"
 theme = "hermit"
 Paginate = 10
 rssLimit = 10
+pygmentsCodefences  = true
+pygmentsUseClasses  = true
+hasCJKLanguage = true
 
 google_analytics = "UA-149357345-1"
 

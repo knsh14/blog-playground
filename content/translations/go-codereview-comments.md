@@ -500,16 +500,16 @@ package consumer  // consumer.go
 
 type Thinger interface { Thing() bool }
 
-func Foo(t Thinger) string { … }
+func Foo(t Thinger) string { ... }
 ```
 
 ```go
 package consumer // consumer_test.go
 
-type fakeThinger struct{ … }
-func (t fakeThinger) Thing() bool { … }
-…
-if Foo(fakeThinger{…}) == "x" { … }
+type fakeThinger struct{ ... }
+func (t fakeThinger) Thing() bool { ... }
+...
+if Foo(fakeThinger{...}) == "x" { ... }
 ```
 
 ```go
@@ -518,10 +518,10 @@ package producer
 
 type Thinger interface { Thing() bool }
 
-type defaultThinger struct{ … }
-func (t defaultThinger) Thing() bool { … }
+type defaultThinger struct{ ... }
+func (t defaultThinger) Thing() bool { ... }
 
-func NewThinger() Thinger { return defaultThinger{ … } }
+func NewThinger() Thinger { return defaultThinger{ ... } }
 ```
 
 替わりに具体的な型を返して、consumer側にはproducerの実装をモックしておきましょう。
@@ -529,10 +529,10 @@ func NewThinger() Thinger { return defaultThinger{ … } }
 ```go
 package producer
 
-type Thinger struct{ … }
-func (t Thinger) Thing() bool { … }
+type Thinger struct{ ... }
+func (t Thinger) Thing() bool { ... }
 
-func NewThinger() Thinger { return Thinger{ … } }
+func NewThinger() Thinger { return Thinger{ ... } }
 ```
 
 # Synchronous Functions
