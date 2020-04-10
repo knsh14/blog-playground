@@ -8,7 +8,7 @@ pygmentsCodefences  = true
 pygmentsUseClasses  = true
 hasCJKLanguage = true
 
-google_analytics = "UA-149357345-1"
+googleAnalytics = "UA-149357345-1"
 
 [author]
   name = "Kenshi Kamata"
