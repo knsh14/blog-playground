@@ -16,6 +16,10 @@ jobs:
         go-version: 1.14
       id: go
 
+    - name: set env var
+      run: |
+          echo "::set-env name=GO111MODULE::on"
+
     - name: Check out code into the Go module directory
       uses: actions/checkout@v1
 
