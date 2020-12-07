@@ -10,22 +10,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
 
-    - name: Set up Go 1.15
-      uses: actions/setup-go@v1
+    - name: Check out code
+      uses: actions/checkout@v2
       with:
-        go-version: 1.15
-      id: go
+        submodules: true  # Fetch Hugo themes
+        fetch-depth: 0
 
-    - name: set env var
-      run: |
-          echo "GO111MODULE=on" >> $GITHUB_ENV
-
-    - name: Check out code into the Go module directory
-      uses: actions/checkout@v1
-
-    - name: install hugo
-      run: |
-        go get -u github.com/gohugoio/hugo
+    - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.79.0'
 
     - name: setup public repo
       run: |
@@ -33,9 +27,6 @@ jobs:
 
     - name: Build
       run: |
-        export PATH=$PATH:`go env GOPATH`/bin
-        git submodule init
-        git submodule update
         hugo
 
     - name: Push
