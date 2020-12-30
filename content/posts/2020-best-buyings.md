@@ -1,11 +1,12 @@
 ---
 title: "2020年買ってよかったもの"
-date: 2020-12-19T17:32:07+09:00
+date: 2020-12-31T01:58:07+09:00
 draft: false
 toc: false
 images:
 tags: 
-  - untagged
+  - 2020
+  - 買い物
 ---
 
 今年買ったものの内買ってよかったなと思ったものを紹介します。
@@ -22,6 +23,17 @@ https://comandantegrinder.com/index.html#styles
 電動だと wilfa Svart Aroma やカリタの Next G が調べた性能や周囲の満足度を聞くと良さそうです。
 手動では COMANDANTE のほかに [Kinu Grinder]( https://www.kinugrinders.com/index.php?page=m_home_page.public.show_product&Id_Product=16 ) や Timemore 社のグラインダーが最後まで候補に上がっていました。
 
+## Delter Cold Drip Coffee Maker
+https://alternativebrewing.com.au/product/delter-cold-drip-coffee-maker/
+
+今年はコーヒーにハマっていたため、色々なコーヒーを試していました。
+水出しコーヒーは豆と時間を通常よりもたくさん使います。
+しかし、作る工程が簡単で一度にたくさん作れるので個人的には非常に気に入っています。
+
+Delter Cold Drip Coffee Maker は滴下式と呼ばれる方法で、一滴ずつ上から水を注ぎ、豆からしっかりとコーヒーを抽出して飲む方法です。
+この方法で作る場合は水の落ちるスピードの調整が難しいのですが、Delter Cold Drip Maker は最初からおおよそ一定になるように設計されています。
+
+私は [Kickstarter]( https://www.kickstarter.com/projects/1884122297/delter-cold-drip-coffee-maker/description ) で購入しました。
 
 # 家電関係
 ## ドラム式洗濯機
@@ -93,6 +105,15 @@ https://10yc.jp/product/navy-10yc-shirts/
 
 このシャツを買ったおかげで外にシャツを干す必要がなくなったので洗濯がかなり効率化されました。
 
+https://twitter.com/10yearsclothing/status/1344151068045791233
+このツイートを見ると 2021 年には更に改良されたものが出るそうです。
+楽しみですね。
+
+## Sghr ガラスのタンブラー
+https://shop.sugahara.com/view/item/006001000255
+
+いいグラスで飲み物を飲むと心が豊かになるので、利用頻度が少なくても買ってよかったと思います。
+sghr のグラスは行きつけのレストランで使われていたものを調べて購入しました。
 
 ## Moonlander Mark1
 https://www.zsa.io/moonlander/
@@ -108,7 +129,7 @@ Ergodox EZ で有名な zsa がリリースした新しいキーボードです�
 親指のキーが多すぎたり、親指の角度が調整できない私用は Ergodox EZ でかなり不満を持っていた部分ですので、これが改善された Moonlander はかなり満足度が高いキーボードです。
 はじめて LED がついたキーボードも使っているので、いろいろ光らせて遊んでいます。
 
-キースイッチが変更可能ですので、最小ロットでいろいろ買って試していました。
+キースイッチが変更可能なので、最小ロットでいろいろ買って試していました。
 
 * Zilent V2 65g
     * https://yushakobo.jp/shop/a02zi/
