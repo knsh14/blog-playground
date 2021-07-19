@@ -17,13 +17,13 @@
   },
   "homepage": "https://github.com/knsh14/blog-playground#readme",
   "dependencies": {
-    "textlint": "^11.9.1",
+    "textlint": "^12.0.2",
     "textlint-filter-rule-comments": "^1.2.2",
     "textlint-filter-rule-whitelist": "^2.0.0",
-    "textlint-plugin-review": "^0.3.3",
-    "textlint-rule-max-ten": "^2.0.4",
-    "textlint-rule-preset-ja-technical-writing": "^3.1.3",
-    "textlint-rule-preset-japanese": "^4.0.4",
+    "textlint-plugin-review": "^0.4.1",
+    "textlint-rule-max-ten": "^4.0.2",
+    "textlint-rule-preset-ja-technical-writing": "^7.0.0",
+    "textlint-rule-preset-japanese": "^7.0.0",
     "textlint-rule-prh": "^5.3.0"
   }
 }
