@@ -18,6 +18,7 @@ date: 2020-03-29T18:23:14+09:00
 - [Examples](#examples)
 - [Goroutine Lifetimes](#goroutine-lifetimes)
 - [Handle Errors](#handle-errors)
+- [Imports](#imports)
 - [Import Blank](#import-blank)
 - [Import Dot](#import-dot)
 - [In-Band Errors](#in-band-errors)
